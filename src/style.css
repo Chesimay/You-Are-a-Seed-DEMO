@@ -1,0 +1,78 @@
+:root {
+  --background: rgb(0, 0, 0);
+  --text-color: rgb(250, 235, 215);
+}
+
+body {
+  background-color: var(--background);
+}
+
+h6 {
+  color: var(--text-color);
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  display: inline;
+  font-size: small;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+p{
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: medium;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+
+table {
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  margin:auto;
+}
+
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+
+.main_button {
+  background-color: var(--background);
+  color: var(--text-color);
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: small;
+  border-radius: 5%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  flex-grow: 1;
+}
+
+.flex-container {
+  display: flex;
+  background-color: var(--background);
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.vert-container {
+  display: flex;
+  background-color: var(--background);
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.item {
+  background-color: var(--background);
+  font-size: 15px;
+  transition: opacity 1s ease-in-out;
+  flex-grow: 1;
+}
